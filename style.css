@@ -16,6 +16,13 @@ p.sample img {
   animation: fadeIn 0.2s ease 0.3s 1 normal;
 
 }
-<link rel="stylesheet" type="text/css" media="only screen and max-device-width:480px" href="./layout/sp.css"/>
-2
-<link rel="stylesheet" type="text/css" media="screen and min-device-width:481px" href="./layout/pc.css" />
+@media screen and(max-width: 480px) {
+    img {
+    border: 0;
+    }
+    }
+@media screen and(min-width: 1280px) {
+    img {
+    border: 1px solid red;
+    }
+}
