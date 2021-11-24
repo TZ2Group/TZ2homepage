@@ -8,7 +8,7 @@ max-width:100%;
 	color:;
 }
 p.sample img {
-    width: 1500px;  /* 横幅を1500pxに */
+    width:100%;
 }
 .fade{
 
